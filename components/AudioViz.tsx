@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useEffect } from "react";
-import Wave from "@foobar404/wave";
+import Wave from "cryptolizers";
 
 const AudioViz: NextPage = () => {
   useEffect(() => {

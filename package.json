@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@foobar404/wave": "https://github.com/GageBachik/Wave.js",
+    "cryptolizers": "^1.0.0",
     "daisyui": "^1.14.0",
     "next": "11.1.2",
     "react": "17.0.2",

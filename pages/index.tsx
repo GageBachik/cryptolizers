@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import AudioViz from "./components/AudioViz";
+import AudioViz from "../components/AudioViz";
 
 const Home: NextPage = () => {
   return (

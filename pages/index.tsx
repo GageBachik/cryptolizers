@@ -1,14 +1,5 @@
 import type { NextPage } from "next";
-import dynamic from "next/dynamic";
-import VanillaAudioViz from "./components/VanillaAudioViz";
-// import AudioViz from "./components/AudioViz";
-
-const AudioViz = dynamic(
-  () => {
-    return import("./components/AudioViz");
-  },
-  { ssr: false }
-);
+import AudioViz from "./components/AudioViz";
 
 const Home: NextPage = () => {
   return (

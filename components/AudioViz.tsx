@@ -219,10 +219,10 @@ const AudioViz: NextPage = () => {
     });
   }, []);
   return (
-    <div id="main">
+    <>
       <audio id="audio" src="song.mp3" controls />
       <canvas id="output" height="500" width="500" />
-    </div>
+    </>
   );
 };
 

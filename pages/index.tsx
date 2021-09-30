@@ -1,17 +1,14 @@
 import type { NextPage } from "next";
+import LogoViz from "../components/LogoViz";
 
 const Home: NextPage = () => {
   return (
     <main className="mx-4 lg:mx-64 font-mono">
-      <div className="grid place-items-center h-screen">
-        <div className="col-span-3">
-          <img
-            className="max-w-xs"
-            src="https://www.arweave.net/Xq6KF3E4VKpRAlT7bZJELNLC35eC25AseDYsxq0fT-k?ext=gif"
-            alt="Cryptolizer Genesis #0"
-          />
+      <div className="grid place-items-center">
+        <div className="col-span-3 mb-8">
+          <LogoViz />
         </div>
-        <div className="col-span-3 prose">
+        <div className="col-span-3 prose prose-purple">
           <h1>
             <span className="text-purple-600">#</span> Cryptolizers
           </h1>

@@ -8,7 +8,7 @@ const Home: NextPage = () => {
         <div className="col-span-3 mb-8">
           <LogoViz />
         </div>
-        <div className="col-span-3 prose prose-purple">
+        <div className="col-span-3 prose">
           <h1>
             <span className="text-purple-600">#</span> Cryptolizers
           </h1>

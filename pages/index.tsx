@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <main className="mx-64 sm:mx-16">
+    <main className="mx-4 lg:mx-64 font-mono">
       <div className="grid place-items-center h-screen">
         <div className="col-span-3">
           <img
